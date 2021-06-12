@@ -1,0 +1,41 @@
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\SİNEMA OTOMASYONU.exe.config
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\SİNEMA OTOMASYONU.exe
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\SİNEMA OTOMASYONU.pdb
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.csprojAssemblyReference.cache
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.KullanıcıGiriş.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Properties.Resources.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.csproj.GenerateResource.cache
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.csproj.CoreCompileInputs.cache
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.exe
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.pdb
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Anasayfa.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Film.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Seans.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Bilet.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.SalonEkle.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.SaatEkle.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.Video.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\QRCoder.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\zxing.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\zxing.presentation.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.xml
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.Video.xml
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\zxing.xml
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\zxing.presentation.xml
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.csproj.CopyComplete
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.QR.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\Interop.WMPLib.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\Interop.WMPLib.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA OTOMASYONU.csproj.ResolveComReference.cache
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Film_Afiş.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Satışlar.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.Büfe.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.ŞifremiUnuttum.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.AdminEkle.resources
+C:\Users\hanif\OneDrive\Desktop\projelerim VS2019\SİNEMA OTOMASYONU\obj\Debug\SİNEMA_OTOMASYONU.AdminAnasayfa.resources
