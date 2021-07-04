@@ -51,8 +51,14 @@ namespace SİNEMA_OTOMASYONU
             çıkış = MessageBox.Show("Programı kapatmak istediğinize emin misiniz?", "Uyarı!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (çıkış == DialogResult.Yes)
             {
-                Application.Exit();
+                Environment.Exit(0);
             }
+        }
+
+        private void AdminAnasayfa_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            KullanıcıGiriş yeni = new KullanıcıGiriş();
+            yeni.Show();
         }
     }
 }

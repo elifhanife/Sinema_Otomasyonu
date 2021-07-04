@@ -176,6 +176,7 @@
             this.Name = "AdminAnasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Anasayfa";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AdminAnasayfa_FormClosing);
             this.ResumeLayout(false);
 
         }

@@ -87,7 +87,7 @@ namespace SİNEMA_OTOMASYONU
             çıkış = MessageBox.Show("Programı kapatmak istediğinize emin misiniz?", "Uyarı!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (çıkış == DialogResult.Yes)
             {
-                Application.Exit();
+                Environment.Exit(0);
             }
         }
 
@@ -261,7 +261,7 @@ namespace SİNEMA_OTOMASYONU
         {
             baglantı.Open();
             OpenFileDialog dosya = new OpenFileDialog();
-            dosya.Filter = "Resim Dosyası |*.jpg;*.jpeg;*.png | Tüm Dosyalar |*.*";
+            dosya.Filter = "Resim Dosyası |*.jpg;*.jpeg;*.png; | Tüm Dosyalar |*.*";
             dosya.ShowDialog();
             string dosyayolu = dosya.FileName;
             txtAfişEkle.Text = dosyayolu;
@@ -291,7 +291,7 @@ namespace SİNEMA_OTOMASYONU
         {
             baglantı.Open();
             OpenFileDialog dosya = new OpenFileDialog();
-            dosya.Filter = "Resim Dosyası |*.jpg;*.jpeg;*.png | Tüm Dosyalar |*.*";
+            dosya.Filter = "Resim Dosyası |*.jpg;*.jpeg;*.png; | Tüm Dosyalar |*.*";
             dosya.ShowDialog();
             string dosyayolu3 = dosya.FileName;
             txtQREkle.Text = dosyayolu3;

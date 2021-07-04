@@ -34,6 +34,59 @@ namespace SİNEMA_OTOMASYONU
         OleDbDataReader dr;
         OleDbConnection bağlantı = new OleDbConnection(@"Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:\\Users\\hanif\\OneDrive\\Desktop\\Kullanıcı Giriş 2002-2003.mdb");
 
+        //Veritabanından kullanıcı adı ve şifreyi alarak giriş yaptırır.
+        private void btnGiriş_Click(object sender, EventArgs e)
+        {
+            string ad = txtKullanıcıAdı.Text;
+            string sifre = txtQR.Text;
+            cmd = new OleDbCommand();
+            bağlantı.Open();
+            cmd.Connection = bağlantı;
+            cmd.CommandText = "Select * From Kullanıcı_Giriş where k_ad ='" + txtKullanıcıAdı.Text + "'AND k_sifre='" + txtQR.Text + "'";
+            dr = cmd.ExecuteReader();
+
+            if (dr.Read())
+            {
+                if (dr["k_ad"].ToString() == "admin" && dr["k_sifre"].ToString() == "admin")
+                {
+                    AdminAnasayfa yeni1 = new AdminAnasayfa();
+                    yeni1.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    Anasayfa yeni = new Anasayfa();
+                    yeni.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Hatalı Giriş Yaptınız!!!");
+                bağlantı.Close();
+            }
+        }
+
+        // Şifreyi yıldızlayarak gizler.
+        private void checkŞifreyiGöster_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkŞifreyiGöster.Checked)
+            {
+                txtQR.PasswordChar = '\0';
+            }
+            else
+            {
+                txtQR.PasswordChar = '*';
+            }
+        }
+
+        private void btnŞifremiUnuttum_Click(object sender, EventArgs e)
+        {
+            ŞifremiUnuttum yeni = new ŞifremiUnuttum();
+            yeni.Show();
+            this.Hide();
+        }
+
         //Bilgisayara bağlı kameraları görüntüler ve seçilmesini sağlar
         private void KameraKontrol()
         {
@@ -121,59 +174,6 @@ namespace SİNEMA_OTOMASYONU
                     cam.Stop();
                 }
             }
-        }
-
-        //Veritabanından kullanıcı adı ve şifreyi alarak giriş yaptırır.
-        private void btnGiriş_Click(object sender, EventArgs e)
-        {
-            string ad = txtKullanıcıAdı.Text;
-            string sifre = txtQR.Text;
-            cmd = new OleDbCommand();
-            bağlantı.Open();
-            cmd.Connection = bağlantı;
-            cmd.CommandText = "Select * From Kullanıcı_Giriş where k_ad ='" + txtKullanıcıAdı.Text + "'AND k_sifre='" + txtQR.Text + "'";
-            dr = cmd.ExecuteReader();
-
-            if (dr.Read())
-            {
-                if (dr["k_ad"].ToString() == "admin" && dr["k_sifre"].ToString() == "admin")
-                {
-                    AdminAnasayfa yeni1 = new AdminAnasayfa();
-                    yeni1.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    Anasayfa yeni = new Anasayfa();
-                    yeni.Show();
-                    this.Hide();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Hatalı Giriş Yaptınız!!!");
-                bağlantı.Close();
-            }
-        }
-
-        // Şifreyi yıldızlayarak gizler.
-        private void checkŞifreyiGöster_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkŞifreyiGöster.Checked)
-            {
-                txtQR.PasswordChar = '\0';
-            }
-            else
-            {
-                txtQR.PasswordChar = '*';
-            }
-        }
-
-        private void btnŞifremiUnuttum_Click(object sender, EventArgs e)
-        {
-            ŞifremiUnuttum yeni = new ŞifremiUnuttum();
-            yeni.Show();
-            this.Hide();
         }
     }
 }

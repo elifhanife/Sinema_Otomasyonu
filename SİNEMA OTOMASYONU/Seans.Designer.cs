@@ -184,9 +184,10 @@
             this.rbtn10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn10.Location = new System.Drawing.Point(193, 222);
             this.rbtn10.Name = "rbtn10";
-            this.rbtn10.Size = new System.Drawing.Size(17, 16);
+            this.rbtn10.Size = new System.Drawing.Size(78, 27);
             this.rbtn10.TabIndex = 9;
             this.rbtn10.TabStop = true;
+            this.rbtn10.Text = "00:00";
             this.rbtn10.UseVisualStyleBackColor = true;
             // 
             // rbtn8
@@ -195,9 +196,10 @@
             this.rbtn8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn8.Location = new System.Drawing.Point(193, 180);
             this.rbtn8.Name = "rbtn8";
-            this.rbtn8.Size = new System.Drawing.Size(17, 16);
+            this.rbtn8.Size = new System.Drawing.Size(78, 27);
             this.rbtn8.TabIndex = 8;
             this.rbtn8.TabStop = true;
+            this.rbtn8.Text = "00:00";
             this.rbtn8.UseVisualStyleBackColor = true;
             // 
             // rbtn6
@@ -206,9 +208,10 @@
             this.rbtn6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn6.Location = new System.Drawing.Point(193, 138);
             this.rbtn6.Name = "rbtn6";
-            this.rbtn6.Size = new System.Drawing.Size(17, 16);
+            this.rbtn6.Size = new System.Drawing.Size(78, 27);
             this.rbtn6.TabIndex = 7;
             this.rbtn6.TabStop = true;
+            this.rbtn6.Text = "00:00";
             this.rbtn6.UseVisualStyleBackColor = true;
             // 
             // rbtn4
@@ -217,9 +220,10 @@
             this.rbtn4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn4.Location = new System.Drawing.Point(193, 95);
             this.rbtn4.Name = "rbtn4";
-            this.rbtn4.Size = new System.Drawing.Size(17, 16);
+            this.rbtn4.Size = new System.Drawing.Size(78, 27);
             this.rbtn4.TabIndex = 6;
             this.rbtn4.TabStop = true;
+            this.rbtn4.Text = "00:00";
             this.rbtn4.UseVisualStyleBackColor = true;
             // 
             // rbtn2
@@ -228,9 +232,10 @@
             this.rbtn2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn2.Location = new System.Drawing.Point(193, 52);
             this.rbtn2.Name = "rbtn2";
-            this.rbtn2.Size = new System.Drawing.Size(17, 16);
+            this.rbtn2.Size = new System.Drawing.Size(78, 27);
             this.rbtn2.TabIndex = 5;
             this.rbtn2.TabStop = true;
+            this.rbtn2.Text = "00:00";
             this.rbtn2.UseVisualStyleBackColor = true;
             // 
             // rbtn9
@@ -239,9 +244,10 @@
             this.rbtn9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn9.Location = new System.Drawing.Point(60, 222);
             this.rbtn9.Name = "rbtn9";
-            this.rbtn9.Size = new System.Drawing.Size(17, 16);
+            this.rbtn9.Size = new System.Drawing.Size(78, 27);
             this.rbtn9.TabIndex = 4;
             this.rbtn9.TabStop = true;
+            this.rbtn9.Text = "00:00";
             this.rbtn9.UseVisualStyleBackColor = true;
             // 
             // rbtn7
@@ -250,9 +256,10 @@
             this.rbtn7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn7.Location = new System.Drawing.Point(60, 180);
             this.rbtn7.Name = "rbtn7";
-            this.rbtn7.Size = new System.Drawing.Size(17, 16);
+            this.rbtn7.Size = new System.Drawing.Size(78, 27);
             this.rbtn7.TabIndex = 3;
             this.rbtn7.TabStop = true;
+            this.rbtn7.Text = "00:00";
             this.rbtn7.UseVisualStyleBackColor = true;
             // 
             // rbtn5
@@ -261,9 +268,10 @@
             this.rbtn5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn5.Location = new System.Drawing.Point(60, 138);
             this.rbtn5.Name = "rbtn5";
-            this.rbtn5.Size = new System.Drawing.Size(17, 16);
+            this.rbtn5.Size = new System.Drawing.Size(78, 27);
             this.rbtn5.TabIndex = 2;
             this.rbtn5.TabStop = true;
+            this.rbtn5.Text = "00:00";
             this.rbtn5.UseVisualStyleBackColor = true;
             // 
             // rbtn3
@@ -272,9 +280,10 @@
             this.rbtn3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn3.Location = new System.Drawing.Point(60, 95);
             this.rbtn3.Name = "rbtn3";
-            this.rbtn3.Size = new System.Drawing.Size(17, 16);
+            this.rbtn3.Size = new System.Drawing.Size(78, 27);
             this.rbtn3.TabIndex = 1;
             this.rbtn3.TabStop = true;
+            this.rbtn3.Text = "00:00";
             this.rbtn3.UseVisualStyleBackColor = true;
             // 
             // rbtn1
@@ -283,8 +292,9 @@
             this.rbtn1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbtn1.Location = new System.Drawing.Point(60, 52);
             this.rbtn1.Name = "rbtn1";
-            this.rbtn1.Size = new System.Drawing.Size(17, 16);
+            this.rbtn1.Size = new System.Drawing.Size(78, 27);
             this.rbtn1.TabIndex = 0;
+            this.rbtn1.Text = "00:00";
             this.rbtn1.UseVisualStyleBackColor = true;
             // 
             // ımageList1

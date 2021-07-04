@@ -131,7 +131,11 @@ namespace SİNEMA_OTOMASYONU
                 SalonlarıGörüntüle();
             }
             else
+            {
                 MessageBox.Show("Sıra no yanlış girildi!");
+                txtSalonGüncelle.Clear();
+            }
+                
         }
 
         // Salon formu yüklendiğinde olanlar.

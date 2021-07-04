@@ -20,8 +20,8 @@ namespace SİNEMA_OTOMASYONU
             InitializeComponent();
         }
 
-        OleDbCommand komut=new OleDbCommand();
-       
+        OleDbCommand komut = new OleDbCommand();
+
 
         private void verilerigöster()
         {
@@ -53,30 +53,25 @@ namespace SİNEMA_OTOMASYONU
             verilerigöster();
         }
 
-        private void listViewAdmin_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnAdminEkle_Click(object sender, EventArgs e)
         {
-            if (listViewAdmin.SelectedItems.Count > 0)
-            {
-                ListViewItem item = listViewAdmin.SelectedItems[0];
-                txtYeniAdmin.Text = item.SubItems[1].Text;
-                txtYeniŞifre.Text = item.SubItems[2].Text;
-                txtYeniMail.Text = item.SubItems[3].Text;
-            }
-        }
-
-        private void Ekle()
-        {
+            baglantı.Open();
             if (txtYeniAdmin.Text != "")
             {
                 if (txtYeniŞifre.Text != "")
                 {
                     if (txtYeniMail.Text != "")
                     {
-                        baglantı.Open();
-                        OleDbCommand komut = new OleDbCommand("insert into Kullanıcı_Giriş(k_ad,k_sifre,email) values ('" + txtYeniAdmin.Text.ToString() + "','" + txtYeniŞifre.Text.ToString() + "','" + txtYeniMail.Text.ToString() + "')", baglantı);
-                        komut.ExecuteNonQuery();
-                        baglantı.Close();
-                        verilerigöster();
+                        try
+                        {
+                            komut = new OleDbCommand("insert into Kullanıcı_Giriş(k_ad,k_sifre,email) values ('" + txtYeniAdmin.Text.ToString() + "','" + txtYeniŞifre.Text.ToString() + "','" + txtYeniMail.Text.ToString() + "')", baglantı);
+                            komut.ExecuteNonQuery();
+                            MessageBox.Show("Yeni Admin Eklendi!");
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Bu admin daha önce eklendi!!!", "UYARI");
+                        }
                     }
                     else
                     {
@@ -92,18 +87,8 @@ namespace SİNEMA_OTOMASYONU
             {
                 MessageBox.Show("Kullanıcı Adı alanı boş geçilmez!!!", "UYARI");
             }
-        }
-
-        private void btnAdminEkle_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Ekle();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Aynı isimde kullanıcı adı mevcut!!!");
-            }
+            baglantı.Close();
+            verilerigöster();
         }
 
         private void btnAdminSil_Click(object sender, EventArgs e)
@@ -165,6 +150,17 @@ namespace SİNEMA_OTOMASYONU
             }
             else
                 MessageBox.Show("Güncelleme ID rakamlardan oluşmalı!!!");
+        }
+
+        private void listViewAdmin_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listViewAdmin.SelectedItems.Count > 0)
+            {
+                ListViewItem item = listViewAdmin.SelectedItems[0];
+                txtYeniAdmin.Text = item.SubItems[1].Text;
+                txtYeniŞifre.Text = item.SubItems[2].Text;
+                txtYeniMail.Text = item.SubItems[3].Text;
+            }
         }
 
         private void checkŞifreyiGöster_CheckedChanged(object sender, EventArgs e)

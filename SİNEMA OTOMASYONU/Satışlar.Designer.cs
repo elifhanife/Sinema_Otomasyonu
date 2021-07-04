@@ -382,13 +382,13 @@
             this.btnFilm.TabIndex = 38;
             this.btnFilm.Text = "Filme Göre Ara";
             this.btnFilm.UseVisualStyleBackColor = false;
-            this.btnFilm.Click += new System.EventHandler(this.btnFilm_Click);
+            this.btnFilm.Click += new System.EventHandler(this.btnFilm_Click_1);
             // 
             // lblTL1
             // 
             this.lblTL1.AutoSize = true;
             this.lblTL1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTL1.Location = new System.Drawing.Point(543, 339);
+            this.lblTL1.Location = new System.Drawing.Point(556, 339);
             this.lblTL1.Name = "lblTL1";
             this.lblTL1.Size = new System.Drawing.Size(24, 26);
             this.lblTL1.TabIndex = 40;
@@ -398,7 +398,7 @@
             // 
             this.lblTL2.AutoSize = true;
             this.lblTL2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTL2.Location = new System.Drawing.Point(833, 339);
+            this.lblTL2.Location = new System.Drawing.Point(839, 339);
             this.lblTL2.Name = "lblTL2";
             this.lblTL2.Size = new System.Drawing.Size(24, 26);
             this.lblTL2.TabIndex = 41;
@@ -408,7 +408,7 @@
             // 
             this.lblTL3.AutoSize = true;
             this.lblTL3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTL3.Location = new System.Drawing.Point(1130, 339);
+            this.lblTL3.Location = new System.Drawing.Point(1145, 339);
             this.lblTL3.Name = "lblTL3";
             this.lblTL3.Size = new System.Drawing.Size(24, 26);
             this.lblTL3.TabIndex = 42;

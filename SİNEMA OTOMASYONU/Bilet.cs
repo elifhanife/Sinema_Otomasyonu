@@ -187,6 +187,8 @@ namespace SİNEMA_OTOMASYONU
         //Veritabanında gelen filmlerden birisi seçildiğinde salon bilgisinin gelmesini sağlar
         private void comboFilmAdı_SelectedIndexChanged(object sender, EventArgs e)
         {
+            comboSalonAdı.Items.Clear();
+            comboÜcret.Items.Clear();
             comboSaat.Items.Clear();
             comboTarih.Items.Clear();
             comboSaat.Text = "";
@@ -471,7 +473,7 @@ namespace SİNEMA_OTOMASYONU
             çıkış = MessageBox.Show("Programı kapatmak istediğinize emin misiniz?", "Uyarı!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (çıkış == DialogResult.Yes)
             {
-                Application.Exit();
+                Environment.Exit(0);
             }
         }
 

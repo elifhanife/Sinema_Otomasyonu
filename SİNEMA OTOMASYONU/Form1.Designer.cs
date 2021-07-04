@@ -114,10 +114,10 @@
             // pictureBoxKamera
             // 
             this.pictureBoxKamera.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxKamera.Location = new System.Drawing.Point(103, 65);
+            this.pictureBoxKamera.Location = new System.Drawing.Point(141, 74);
             this.pictureBoxKamera.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxKamera.Name = "pictureBoxKamera";
-            this.pictureBoxKamera.Size = new System.Drawing.Size(214, 144);
+            this.pictureBoxKamera.Size = new System.Drawing.Size(148, 118);
             this.pictureBoxKamera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxKamera.TabIndex = 5;
             this.pictureBoxKamera.TabStop = false;

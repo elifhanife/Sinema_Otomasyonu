@@ -71,6 +71,7 @@
             this.btnBüfeİşlemleri = new System.Windows.Forms.Button();
             this.ımageList5 = new System.Windows.Forms.ImageList(this.components);
             this.groupBoxBüfe = new System.Windows.Forms.GroupBox();
+            this.lblTL = new System.Windows.Forms.Label();
             this.btnBüfeHesapla = new System.Windows.Forms.Button();
             this.ımageList6 = new System.Windows.Forms.ImageList(this.components);
             this.lbldbFiyat5 = new System.Windows.Forms.Label();
@@ -99,7 +100,6 @@
             this.lblÜrün2 = new System.Windows.Forms.Label();
             this.lblÜrün1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblTL = new System.Windows.Forms.Label();
             this.pnlKoltuk.SuspendLayout();
             this.groupBoxBiletSatışİşlemleri.SuspendLayout();
             this.groupBoxBiletİptal.SuspendLayout();
@@ -559,6 +559,16 @@
             this.groupBoxBüfe.TabStop = false;
             this.groupBoxBüfe.Text = "Büfe Satış";
             // 
+            // lblTL
+            // 
+            this.lblTL.AutoSize = true;
+            this.lblTL.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTL.Location = new System.Drawing.Point(197, 355);
+            this.lblTL.Name = "lblTL";
+            this.lblTL.Size = new System.Drawing.Size(24, 26);
+            this.lblTL.TabIndex = 41;
+            this.lblTL.Text = "₺";
+            // 
             // btnBüfeHesapla
             // 
             this.btnBüfeHesapla.BackColor = System.Drawing.Color.LightSalmon;
@@ -588,8 +598,9 @@
             this.lbldbFiyat5.Font = new System.Drawing.Font("Bodoni MT Condensed", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldbFiyat5.Location = new System.Drawing.Point(329, 279);
             this.lbldbFiyat5.Name = "lbldbFiyat5";
-            this.lbldbFiyat5.Size = new System.Drawing.Size(0, 29);
+            this.lbldbFiyat5.Size = new System.Drawing.Size(23, 29);
             this.lbldbFiyat5.TabIndex = 22;
+            this.lbldbFiyat5.Text = "0";
             // 
             // lblBüfeFiyat
             // 
@@ -607,8 +618,9 @@
             this.lbldbFiyat4.Font = new System.Drawing.Font("Bodoni MT Condensed", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldbFiyat4.Location = new System.Drawing.Point(329, 225);
             this.lbldbFiyat4.Name = "lbldbFiyat4";
-            this.lbldbFiyat4.Size = new System.Drawing.Size(0, 29);
+            this.lbldbFiyat4.Size = new System.Drawing.Size(23, 29);
             this.lbldbFiyat4.TabIndex = 21;
+            this.lbldbFiyat4.Text = "0";
             // 
             // lblBüfeToplam
             // 
@@ -626,8 +638,9 @@
             this.lbldbFiyat3.Font = new System.Drawing.Font("Bodoni MT Condensed", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldbFiyat3.Location = new System.Drawing.Point(329, 174);
             this.lbldbFiyat3.Name = "lbldbFiyat3";
-            this.lbldbFiyat3.Size = new System.Drawing.Size(0, 29);
+            this.lbldbFiyat3.Size = new System.Drawing.Size(23, 29);
             this.lbldbFiyat3.TabIndex = 20;
+            this.lbldbFiyat3.Text = "0";
             // 
             // lbldbFiyat2
             // 
@@ -635,8 +648,9 @@
             this.lbldbFiyat2.Font = new System.Drawing.Font("Bodoni MT Condensed", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldbFiyat2.Location = new System.Drawing.Point(329, 124);
             this.lbldbFiyat2.Name = "lbldbFiyat2";
-            this.lbldbFiyat2.Size = new System.Drawing.Size(0, 29);
+            this.lbldbFiyat2.Size = new System.Drawing.Size(23, 29);
             this.lbldbFiyat2.TabIndex = 19;
+            this.lbldbFiyat2.Text = "0";
             // 
             // lbldbFiyat1
             // 
@@ -644,8 +658,9 @@
             this.lbldbFiyat1.Font = new System.Drawing.Font("Bodoni MT Condensed", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldbFiyat1.Location = new System.Drawing.Point(329, 74);
             this.lbldbFiyat1.Name = "lbldbFiyat1";
-            this.lbldbFiyat1.Size = new System.Drawing.Size(0, 29);
+            this.lbldbFiyat1.Size = new System.Drawing.Size(23, 29);
             this.lbldbFiyat1.TabIndex = 18;
+            this.lbldbFiyat1.Text = "0";
             // 
             // txtFiyat5
             // 
@@ -773,8 +788,9 @@
             this.lblÜrün5.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblÜrün5.Location = new System.Drawing.Point(20, 279);
             this.lblÜrün5.Name = "lblÜrün5";
-            this.lblÜrün5.Size = new System.Drawing.Size(0, 29);
+            this.lblÜrün5.Size = new System.Drawing.Size(21, 29);
             this.lblÜrün5.TabIndex = 4;
+            this.lblÜrün5.Text = "-";
             // 
             // lblÜrün4
             // 
@@ -782,8 +798,9 @@
             this.lblÜrün4.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblÜrün4.Location = new System.Drawing.Point(19, 224);
             this.lblÜrün4.Name = "lblÜrün4";
-            this.lblÜrün4.Size = new System.Drawing.Size(0, 29);
+            this.lblÜrün4.Size = new System.Drawing.Size(21, 29);
             this.lblÜrün4.TabIndex = 3;
+            this.lblÜrün4.Text = "-";
             // 
             // lblÜrün3
             // 
@@ -791,8 +808,9 @@
             this.lblÜrün3.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblÜrün3.Location = new System.Drawing.Point(19, 174);
             this.lblÜrün3.Name = "lblÜrün3";
-            this.lblÜrün3.Size = new System.Drawing.Size(0, 29);
+            this.lblÜrün3.Size = new System.Drawing.Size(21, 29);
             this.lblÜrün3.TabIndex = 2;
+            this.lblÜrün3.Text = "-";
             // 
             // lblÜrün2
             // 
@@ -800,8 +818,9 @@
             this.lblÜrün2.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblÜrün2.Location = new System.Drawing.Point(19, 123);
             this.lblÜrün2.Name = "lblÜrün2";
-            this.lblÜrün2.Size = new System.Drawing.Size(0, 29);
+            this.lblÜrün2.Size = new System.Drawing.Size(21, 29);
             this.lblÜrün2.TabIndex = 1;
+            this.lblÜrün2.Text = "-";
             // 
             // lblÜrün1
             // 
@@ -809,8 +828,9 @@
             this.lblÜrün1.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblÜrün1.Location = new System.Drawing.Point(19, 73);
             this.lblÜrün1.Name = "lblÜrün1";
-            this.lblÜrün1.Size = new System.Drawing.Size(0, 29);
+            this.lblÜrün1.Size = new System.Drawing.Size(21, 29);
             this.lblÜrün1.TabIndex = 0;
+            this.lblÜrün1.Text = "-";
             // 
             // pictureBox1
             // 
@@ -821,16 +841,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
-            // 
-            // lblTL
-            // 
-            this.lblTL.AutoSize = true;
-            this.lblTL.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTL.Location = new System.Drawing.Point(180, 355);
-            this.lblTL.Name = "lblTL";
-            this.lblTL.Size = new System.Drawing.Size(24, 26);
-            this.lblTL.TabIndex = 41;
-            this.lblTL.Text = "₺";
             // 
             // Bilet
             // 
